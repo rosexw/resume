@@ -1,0 +1,98 @@
+header {
+  background-color:#F0FFFF;
+  color:#466C88;
+  text-decoration: none;
+}
+.social-media-link {
+  text-decoration: none;
+}
+.center {
+  text-align: center;
+  margin: auto;
+}
+.social-media-icon {
+  width: 20px;
+  height: 20px;
+  padding: 1%;
+  background-color: #466C88;
+  border-radius: 10%;
+}
+.profile-picture {
+  width: 300px;
+  height: 150px;
+  padding: 1%;
+  background-color: #466C88;
+  border-radius: 20%;
+}
+h1, h2, h3, h6 {
+  font-family: 'Bungee', sans-serif;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+header h1 {
+  margin: 0;
+  font-size: 50px;
+}
+header p {
+  margin: 0;
+  font-size: 16px;
+}
+aside {
+  background-color: #466C88;
+  color: #F0FFFF;
+  width: 20%;
+  float: left;
+  padding-left: 20px;
+}
+aside ul {
+  list-style-type: none;
+  padding: 0;
+}
+aside ul li {
+  margin-bottom: 15px;
+}
+aside ul li a {
+  font-size: 24px;
+  cursor: pointer;
+  font-family: 'Bungee',sans-serif;
+  text-decoration: none;
+  color: #FFF;
+  transition: 0.3s;
+}
+aside ul li a:hover{
+  color: #87CEEB;
+}
+
+main {
+  background-color: #FFF;
+  color: #466C88;
+  width: 72%;
+  float: right;
+}
+.main_section {
+  padding-left: 20px;
+}
+main h2 {
+  color: #466C88;
+}
+footer {
+
+}
+#social-media img {
+  width: 35px;
+  padding: 1.5%;
+}
+.container {
+  overflow: hidden;
+  background-color: #466C88;
+}
+@media  all and (max-width:850px) {
+      main, aside {
+        width: 100%;
+    }
+    section {
+      padding-right: 20px;
+      padding-left: 20px
+    }
+}
